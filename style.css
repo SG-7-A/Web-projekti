@@ -40,4 +40,5 @@ footer{
     display: flex;
     flex-wrap: wrap;
     border: 1px solid #73A9AD;
+    padding: 10px;
 }
