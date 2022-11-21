@@ -1,8 +1,10 @@
+/* Poistaa elementtien luontaiset paddingit ja marginit, alustavasti tässä mutta voi poistaa myöhemmin */
 *{
     margin: 0px;
     padding:0px;
     }
 
+/* Nettisivun taustan väri*/
 #body {
     background-color: #F5F0BB;
     border: 1px solid #73A9AD;
@@ -28,9 +30,25 @@ header{
 article{
     background-color: #90C8AC;
     width: 80%;
-    height: 600px;
+    height: 50vwpx;
     margin: auto;
     border: 1px solid #73A9AD;
+}
+
+/* Sisällön ensimmäinen otsikko, toivottaa käyttäjät tervetulleiksi nettisivulle */
+#ekaotsikko{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3em;
+}
+
+/* Articlen sisältö / teksti / kuvat */
+#sisalto{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 150px;
 }
 
 /* Alapalkki */
@@ -41,4 +59,5 @@ footer{
     display: flex;
     flex-wrap: wrap;
     border: 1px solid #73A9AD;
+    padding: 10px;
 }
