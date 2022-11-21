@@ -3,9 +3,13 @@
     padding:0px;
     }
 
+body {
+    background-color: #F5F0BB;
+}
+
 /* Navigaatiopalkki */    
 header{
-    background-color: beige;
+    background-color: #C4DFAA ;
     width: 100%;
     height: 150px;
     display: flex;
@@ -15,7 +19,7 @@ header{
 
 /* Sisältö */
 article{
-    background-color: aqua;
+    background-color: #90C8AC;
     width: 80%;
     height: 600px;
     margin: auto;
@@ -23,7 +27,7 @@ article{
 
 /* Alapalkki */
 footer{
-    background-color: cadetblue;
+    background-color: #C4DFAA;
     width: 100%;
     height: 150px;
     display: flex;
