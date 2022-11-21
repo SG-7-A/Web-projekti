@@ -9,8 +9,9 @@
 }
 
 /* Navigaatiopalkki */    
-nav {
+#navbar-nav {
     background-color: #C4DFAA;
+    border: 5px solid black;
 }
 
 header{
