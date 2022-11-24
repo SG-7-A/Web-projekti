@@ -8,31 +8,30 @@
     border: 1px solid #73A9AD;
 }
 
-/* Navigaatiopalkki */    
-#navbar-nav {
-    background-color: #C4DFAA;
-    border: 5px solid black;
-}
-
-header{
-    background-color: #C4DFAA ;
-    width: 100%;
+img {
     height: 150px;
-    display: flex;
-    border: 1px solid #73A9AD;
-    flex-wrap: wrap;
+    margin: 30px 15px 0px 600px;
 }
-header img{
-    width: 150px;
+/* Navigaatiopalkki */    
+.nav-link{
+    border: 1px solid #73A9AD;
+    width: 405px;
+    font-size: 20px;
+    background-color: #90C8AC;
 }
 
+nav{
+left: 135px;
+width: 0px;
+top: 10px;
+}
 
 /* Sisältö */
 article{
     background-color: #90C8AC;
     width: 80%;
     height: 600px;
-    margin: auto;
+    margin: 20px 150px;
     border: 1px solid #73A9AD;
 }
 
@@ -41,7 +40,5 @@ footer{
     background-color: #C4DFAA;
     width: 100%;
     height: 150px;
-    display: flex;
-    flex-wrap: wrap;
     border: 1px solid #73A9AD;
 }
