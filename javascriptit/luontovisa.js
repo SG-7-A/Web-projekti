@@ -1,6 +1,7 @@
 //document.getElementById("results-h").onclick = function() {
    // getResults();
 //}
+const NO_ANSWER = ""
 
 function getResults(){
 
@@ -12,7 +13,12 @@ let wrongAnswer = document.getElementsByClassName("wrong").innerHTML;
 if (document.getElementById("correct1").checked){
     document.getElementById("results").innerHTML = "Vastaus on oikein"
 
-}else {
-    document.getElementById("results").innerHTML = "Vastaus on väärin, oikea vastaus on karhu." 
+}else if (document.getElementsByClassName("wrong").checked){
+    document.getElementById("results").innerHTML = "Vastaus on väärin"
+
+} else {
+    document.getElementById("results").innerHTML = NO_ANSWER;
 }
+
+
 }
