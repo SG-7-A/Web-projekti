@@ -8,7 +8,7 @@
     border: 1px solid #73A9AD;
 }
 
-img {
+.logo {
     height: 150px;
     margin: 30px 15px 0px 600px;
 }
@@ -38,7 +38,8 @@ article{
 /* Alapalkki */
 footer{
     background-color: #C4DFAA;
-    width: 100%;
+    width: 80%;
     height: 150px;
+    margin: 20px 150px;
     border: 1px solid #73A9AD;
 }
