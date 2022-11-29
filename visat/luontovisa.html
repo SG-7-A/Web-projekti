@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luontovisa</title>
-    <link rel="stylesheet" href="../tyylit/luontovisa.css">
 </head>
 <body>
 
@@ -17,11 +16,12 @@
 
 <form>
 
-<div class="questionBox">
-<h3>Kysymys 1</h3>
+<!-- ENSIMMÄINEN KYSYMYS -->
+<div id="questionBox1" class="questionBox">
+<h3>Kysymys 1 / 5</h3>
 <p>Mikä näistä nukkuu talviunta?</p>
 <div>
-    <input type="radio" name="kysymys1" id="">
+    <input type="radio" name="kysymys1" id="correctAnswer1">
     <span>Karhu</span>
 </div>
 
@@ -45,10 +45,15 @@
     <input type="radio" name="kysymys1" id="">
     <span>Kärppä</span>
 </div>
+
+<br>
+<input type="button" value="Vastaa">
 </div>
 <br>
-<div class="questionBox">
-<h3>Kysymys 2</h3>
+
+<!-- TOINEN KYSYMYS -->
+<div id="questionBox2" class="questionBox">
+<h3>Kysymys 2 / 5</h3>
 <p>Kuinka usein kärpänen kakkaa?</p>
 <div>
     <input type="radio" name="kysymys2" id="">
@@ -66,7 +71,7 @@
 </div>
 
 <div>
-    <input type="radio" name="kysymys2" id="">
+    <input type="radio" name="kysymys2" id="correctAnswer2">
     <span>Viiden minuutin välein</span>
 </div>
 
@@ -75,12 +80,16 @@
     <span>Ei koskaan</span>
 </div>
 
+<br>
+<input type="button" value="Vastaa">
+
 <p>Kärpäset kakkaavat viiden minuutin välein ja oksentavat ruokansa päälle ennen kuin syövät sen. Kärpäset maistavat jaloillaan, ovat kuuroja ja niiden täytyy vieläpä hypätä taaksepäin päästäkseen lentoon</p>
 </div>
 <br>
 
-<div class="questionBox">
-<h3>Kysymys 3</h3>
+<!-- KOLMAS KYSYMYS -->
+<div id="questionBox3" class="questionBox">
+<h3>Kysymys 3 / 5</h3>
 <p>Minkä värinen on jääkarhun iho?</p>
 <div>
     <input type="radio" name="kysymys3" id="">
@@ -93,7 +102,7 @@
 </div>
 
 <div>
-    <input type="radio" name="kysymys3" id="">
+    <input type="radio" name="kysymys3" id="correctAnswer3">
     <span>Musta</span>
 </div>
 
@@ -106,11 +115,14 @@
     <input type="radio" name="kysymys3" id="">
     <span>Vaaleanpunainen</span>
 </div>
+<br>
+<input type="button" value="Vastaa">
 </div>
 <br>
 
-<div class="questionBox">
-<h3>Kysymys 4</h3>
+<!-- NELJÄS KYSYMYS -->
+<div id="questionBox4" class="questionBox">
+<h3>Kysymys 4 / 5</h3>
 <p>Mikä on Suomen yleisin puulaji?</p>
 <div>
     <input type="radio" name="kysymys4" id="">
@@ -133,14 +145,17 @@
 </div>
 
 <div>
-    <input type="radio" name="kysymys4" id="">
+    <input type="radio" name="kysymys4" id="correctAnswer4">
     <span>Mänty</span>
 </div>
+<br>
+<input type="button" value="Vastaa">
 </div>
 <br>
 
-<div class="questionBox">
-<h3>Kysymys 5</h3>
+<!-- VIIDES KYSYMYS -->
+<div id="questionBox5" class="questionBox">
+<h3>Kysymys 5 / 5</h3>
 <p>Mikä eläin pudottaa pelästyessään häntänsä?</p>
 <div>
     <input type="radio" name="kysymys5" id="">
@@ -153,7 +168,7 @@
 </div>
 
 <div>
-    <input type="radio" name="kysymys5" id="">
+    <input type="radio" name="kysymys5" id="correctAnswer5">
     <span>Sisilisko</span>
 </div>
 
@@ -166,6 +181,8 @@
     <input type="radio" name="kysymys5" id="">
     <span>Ei mikään</span>
 </div>
+<br>
+<input type="button" value="Vastaa">
 </div>
 </form>
 
