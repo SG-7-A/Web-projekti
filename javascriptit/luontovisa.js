@@ -13,6 +13,6 @@ if (document.getElementById("correct1").checked){
     document.getElementById("results").innerHTML = "Vastaus on oikein"
 
 }else {
-    document.getElementById("results").innerHTML = "Vastaus on väärin"
+    document.getElementById("results").innerHTML = "Vastaus on väärin, oikea vastaus on karhu." 
 }
 }
