@@ -12,18 +12,13 @@
     height: 150px;
     margin: 30px 15px 0px 600px;
 }
-/* Navigaatiopalkki */    
-.nav-link{
-    border: 1px solid #73A9AD;
-    width: 405px;
-    font-size: 20px;
-    background-color: #90C8AC;
-}
 
-nav{
-left: 135px;
-width: 0px;
-top: 10px;
+/* Navigaatiopalkki */
+.navbar{
+    background-color: #90C8AC;
+    border: 1px solid #73A9AD;
+    width: 80%;
+    margin-left: 10%;
 }
 
 /* Sisältö */
@@ -33,6 +28,7 @@ article{
     height: 600px;
     margin: 20px 150px;
     border: 1px solid #73A9AD;
+    margin-left: 10%;
 }
 
 /* Alapalkki */
@@ -41,5 +37,6 @@ footer{
     width: 80%;
     height: 150px;
     margin: 20px 150px;
+    margin-left: 10%;
     border: 1px solid #73A9AD;
 }
