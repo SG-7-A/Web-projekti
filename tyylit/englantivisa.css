@@ -2,8 +2,14 @@
   /* sivun taustaväri (body) */
   background-color: antiquewhite;
 }
-#logo{
-
+.navbar{
+  background-color: #C4DFAA;
+  border: 3px solid #73A9AD;
+  width: 80%;
+  margin-left: 10%;
+}
+h1{
+  text-align: center;
 }
 /* Articlen muokkaukset */
 article{
@@ -15,6 +21,26 @@ article{
   margin-left: 10%;
 
 }
-.question{
+/* orava ja omena visailun kuvien koon muokkaus */
+#orava{
+  width: 200px;
+  max-height: 150px;
   
+}
+#omena{
+  width: 150px;
+}
+#question{
+  border: 1px solid #73A9AD;
+  padding: 20px;
+  text-align: left;
+}
+/* Alapalkin ulkonäkö */
+footer{
+  background-color: #C4DFAA;
+  width: 80%;
+  height: 150px;
+  margin: 20px 150px;
+  margin-left: 10%;
+  border: 3px solid #73A9AD;
 }
