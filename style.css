@@ -4,8 +4,7 @@
     }
 
 #body {
-    background-color: #F5F0BB;
-    border: 1px solid #73A9AD;
+    background-color: antiquewhite;
 }
 
 .logo {
@@ -15,8 +14,8 @@
 
 /* Navigaatiopalkki */
 .navbar{
-    background-color: #90C8AC;
-    border: 1px solid #73A9AD;
+    background-color: #C4DFAA;
+    border: 3px solid #73A9AD;
     width: 80%;
     margin-left: 10%;
 }
@@ -27,7 +26,7 @@ article{
     width: 80%;
     height: 600px;
     margin: 20px 150px;
-    border: 1px solid #73A9AD;
+    border: 3px solid #73A9AD;
     margin-left: 10%;
 }
 
@@ -38,5 +37,5 @@ footer{
     height: 150px;
     margin: 20px 150px;
     margin-left: 10%;
-    border: 1px solid #73A9AD;
+    border: 3px solid #73A9AD;
 }
