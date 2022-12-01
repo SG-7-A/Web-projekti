@@ -1,9 +1,19 @@
-body{
-  background-color: #F5F0BB;
+#content{
+  /* sivun taustaväri (body) */
+  background-color: antiquewhite;
 }
+#logo{
+
+}
+/* Articlen muokkaukset */
 article{
-  border: 1px solid #73A9AD;
+  border: 3px solid #73A9AD;
   background-color: #90C8AC;
+  width: 80%;
+  height: fit-content;
+  margin: 20px 150px;
+  margin-left: 10%;
+
 }
 .question{
   
