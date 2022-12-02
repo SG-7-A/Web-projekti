@@ -11,65 +11,72 @@
 <body>
 
   <h1>Tervetuloa luontovisaan!</h1>
-  <p></p>
+  <p id="caption">Testissä pääset kokeilemaan yleistietämystäsi luontoaiheisissa kysymyksissä. Kysymykseen vastattuasi et voi vaihtaa vastausvaihtoehtoa. Visassa on viisi kysymystä, joista jokaisessa on yksi oikea vastausvaihtoehto. </p>
 
-  <hr>
-    <p class="questions"> 1- Mikä näistä nukkuu talviunta? </p>
+  <div class="questionBox">
+    <b> <p class="questions"> <span> Kysymys 1 / 5 </span> Mikä näistä metsän eläimistä nukkuu talviunta? </p></b>
       
-      <input type="radio" name="answer1" id="wrong1"> Jänis
-      <input type="radio" name="answer1"  id="correct1"> Karhu
-      <input type="radio" name="answer1" id="wrong2"> Hirvi
+      <input type="radio" name="answer1" id="wrong1"> <span> Jänis </span>
+      <input type="radio" name="answer1"  id="correct1"> <span> Karhu </span>
+      <input type="radio" name="answer1" id="wrong2"> <span> Hirvi </span>
 
       <div>
         <button class="submit" onclick="getResults()" type="submit"> Vastaa </button>
       </div>
+
         <p id="result1"></p>
-      <hr>
-  
-      <p class="questions"> 2- Kuinka usein kärpänen kakkaa? </p>
-      <input type="radio" name="answer2" id="wrong3"> Tunnin välein
-      <input type="radio" name="answer2"  id="wrong4"> Kerran vuorokaudessa
-      <input type="radio" name="answer2"  id="correct2"> Viiden minuutin välein
+  </div>
+
+  <div class="questionBox">
+    <b><p class="questions"> <span> Kysymys 2 / 5 </span> Kuinka usein kärpänen kakkaa? </p></b>
+      <input type="radio" name="answer2" id="wrong3"> <span> Tunnin välein </span>
+      <input type="radio" name="answer2"  id="wrong4"> <span> Kerran vuorokaudessa </span>
+      <input type="radio" name="answer2"  id="correct2"> <span> Viiden minuutin välein </span>
       
       <div>
         <button class="submit" onclick="getResults()" type="submit"> Vastaa </button>
       </div>
         <p id="result2"></p>
-      <hr>
+  </div>
   
-      <p class="questions"> 3- Minkä värinen on jääkarhun iho? </p>
-      <input type="radio" name="answer3"  id="wrong5"> Valkoinen
-      <input type="radio" name="answer3"  id="wrong6"> Vaaleanpunainen
-      <input type="radio" name="answer3"  id="correct3"> Musta
+  <div class="questionBox">
+     <b> <p class="questions"> <span> Kysymys 3/ 5 </span> Minkä värinen on jääkarhun iho? </p> </b>
+      <input type="radio" name="answer3"  id="wrong5"> <span> Valkoinen </span>
+      <input type="radio" name="answer3"  id="wrong6"> <span>Vaaleanpunainen </span>
+      <input type="radio" name="answer3"  id="correct3"> <span> Musta </span>
       <div>
         <button class="submit" onclick="getResults()" type="submit"> Vastaa </button>
       </div>
         <p id="result3"></p>
-      <hr>
-  
-      <p class="questions"> 4- Mikä on Suomen yleisin puulaji? </p>
-      <input type="radio" name="answer4"  id="wrong7"> Koivu
-      <input type="radio" name="answer4"  id="correct4"> Mänty
-      <input type="radio" name="answer4"  id="wrong8"> Kuusi
+  </div>
+
+  <div class="questionBox">
+     <b><p class="questions"> <span> Kysymys 4 / 5 </span> Mikä on Suomen yleisin puulaji? </p> </b> 
+      <input type="radio" name="answer4"  id="wrong7"> <span> Koivu </span>
+      <input type="radio" name="answer4"  id="correct4"> <span> Mänty </span>
+      <input type="radio" name="answer4"  id="wrong8"> <span> Kuusi </span>
       <div>
         <button class="submit" onclick="getResults()" type="submit"> Vastaa </button>
       </div>
         <p id="result4"></p>
-      <hr>
+  </div>
   
-      <p class="questions"> 5- Mikä eläin pudottaa pelästyessään häntänsä? </p>
-      <input type="radio" name="answer5" id="correct5"> Sisilisko
-      <input type="radio" name="answer5" id="wrong9"> Haisunäätä
-      <input type="radio" name="answer5" id="wrong10"> Orava
+  <div class="questionBox">
+      <b> <p class="questions"> <span> Kysymys 5 / 5 </span> Mikä eläin pudottaa pelästyessään häntänsä? </p> </b>
+      <input type="radio" name="answer5" id="correct5"> <span> Sisilisko </span>
+      <input type="radio" name="answer5" id="wrong9"> <span> Haisunäätä </span>
+      <input type="radio" name="answer5" id="wrong10"> <span> Orava </span>
 
       <div>
         <button class="submit" onclick="getResults()" type="submit"> Vastaa </button>
       </div>
         <p id="result5"></p>
       <br>
+  </div>
       <br>
     <h2> Tulokset </h2>
-    <p id="results"></p>
+    <p id="results"> Hienoa! Olet suorittanut luontovisan. Jokaisesta oikeasta vastauksesta saat yhden kävyn :)</p>
+
 
     <img class="kuvia" id="kuva1" src="../kuvat/käpy.png" alt="käpy" srcset="" hidden>
     <img class="kuvia" id="kuva2" src="../kuvat/käpy.png" alt="käpy" srcset="" hidden>
