@@ -23,6 +23,7 @@ article{
 }
 #question{
   display: block;
+  padding: 20px;
 }
 /* orava ja omena visailun kuvien koon muokkaus */
 #orava{
@@ -43,4 +44,31 @@ footer{
   margin: 20px 150px;
   margin-left: 10%;
   border: 3px solid #73A9AD;
+}
+/* kysymys nappien muotoilu */
+.container{
+  text-align: center;
+}
+#answerButtons{
+  display: flex;
+  flex-direction: column;
+}
+.answerBTN{
+  border:3px solid #73A9AD;
+  margin: 3px;
+  background-color: #C4DFAA;
+}
+.nextButton{
+  border: 3px solid #C4DFAA;
+  background-color: #73A9AD;
+  margin: 3px;
+  
+}
+button.wrong{
+  background-color: red;
+  border: 3px solid red;
+}
+button.correct{
+  background-color: greenyellow;
+  border: 3px solid greenyellow;
 }
