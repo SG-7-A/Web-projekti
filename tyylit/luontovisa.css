@@ -2,12 +2,22 @@ body {
     background-color: #F5F0BB;
 }
 
+#logo {
+    padding: 20px;
+}
+
 h1 {
     text-align: center;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar{
+    background-color: #C4DFAA;
+    border: 3px solid #73A9AD;
+    width: 80%;
+    margin-left: 10%;
+}
 .questionBox{
     border: 1px solid;
     padding: 10px;
@@ -33,6 +43,7 @@ h1 {
     width: 100px;
     margin-left: 10%;
 }
+
 
 .submit{
     background-color: #90C8AC ;
