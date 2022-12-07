@@ -1,9 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: #F5F0BB;
 }
 
 #logo {
-    padding: 20px;
+    padding: 40px 0px 0px;
 }
 
 h1 {
@@ -20,20 +25,24 @@ h1 {
 }
 .questionBox{
     border: 1px solid;
+    border-radius: 20px;
     padding: 10px;
-    margin: 60px;
+    margin: 0px 150px 20px;
     background-color: rgb(157, 124, 95);
     text-align: center;
-    width: 90%;
+    width: 80%;
     border: solid 3px #90C8AC;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #caption {
     text-align: center;
-    width: 67%;
-    margin: 1% 15%;
+    width: 80%;
+    margin: 2% 10%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #C4DFAA;
+    border: 3px solid #73A9AD;
+    border-radius: 20px;
 }
 .questions span {
     display: block;
