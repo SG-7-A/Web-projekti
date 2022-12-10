@@ -28,8 +28,7 @@ article{
 /* orava ja omena visailun kuvien koon muokkaus */
 #orava{
   width: 200px;
-  max-height: 150px;
-  
+  max-height: 150px; 
 }
 #omena{
   width: 150px;
@@ -40,35 +39,45 @@ article{
 footer{
   background-color: #C4DFAA;
   width: 80%;
-  height: 150px;
+  height: 110px;
   margin: 20px 150px;
   margin-left: 10%;
   border: 3px solid #73A9AD;
 }
+
 /* kysymys nappien muotoilu */
 .container{
   text-align: center;
 }
-#answerButtons{
+
+/* valitsee divin alta ensimmäiset neljä eli vastaus napit */
+div:nth-child(-n+4){
   display: flex;
   flex-direction: column;
 }
+#d{
+  margin-bottom: 30px;
+}
+
 .answerBTN{
   border:3px solid #73A9AD;
   margin: 3px;
   background-color: #C4DFAA;
 }
-.nextButton{
-  border: 3px solid #C4DFAA;
-  background-color: #73A9AD;
-  margin: 3px;
-  
-}
+/* väärä vastaus napin väri */
 button.wrong{
   background-color: red;
   border: 3px solid red;
 }
+/* oikea vastaus napin väri */
 button.correct{
   background-color: greenyellow;
   border: 3px solid greenyellow;
+}
+/* englannin lippujen muotoilu */
+div > img{
+  width: 50px;
+  opacity: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
