@@ -1,83 +1,92 @@
-#content{
+#content {
   /* sivun taustaväri (body) */
   background-color: antiquewhite;
 }
-.navbar{
-  background-color: #C4DFAA;
-  border: 3px solid #73A9AD;
+.navbar {
+  background-color: #c4dfaa;
+  border: 3px solid #73a9ad;
   width: 80%;
   margin-left: 10%;
 }
-h1{
+h1 {
   text-align: center;
 }
+
 /* Articlen muokkaukset */
-article{
-  border: 3px solid #73A9AD;
-  background-color: #90C8AC;
+article {
+  border: 3px solid #73a9ad;
+  background-color: #90c8ac;
   width: 80%;
   height: fit-content;
   margin: 20px 150px;
   margin-left: 10%;
-
 }
-#question{
+#question {
   display: block;
   padding: 20px;
 }
-/* orava ja omena visailun kuvien koon muokkaus */
-#orava{
-  width: 200px;
-  max-height: 150px; 
-}
-#omena{
-  width: 150px;
-}
-
 
 /* Alapalkin ulkonäkö */
-footer{
-  background-color: #C4DFAA;
+footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  background-color: #c4dfaa;
   width: 80%;
   height: 110px;
   margin: 20px 150px;
   margin-left: 10%;
-  border: 3px solid #73A9AD;
+  border: 3px solid #73a9ad;
 }
 
-/* kysymys nappien muotoilu */
-.container{
+/* kysymyksen asettelu keskelle */
+.container {
   text-align: center;
 }
 
 /* valitsee divin alta ensimmäiset neljä eli vastaus napit */
-div:nth-child(-n+4){
+div:nth-child(-n + 4) {
   display: flex;
   flex-direction: column;
 }
-#d{
+#d {
   margin-bottom: 30px;
 }
+/* valitsee p teksti elementin  */
+article > h1 + p{
+  text-align: center;
+}
 
-.answerBTN{
-  border:3px solid #73A9AD;
+.answerBTN {
+  border: 3px solid #73a9ad;
   margin: 3px;
-  background-color: #C4DFAA;
+  background-color: #c4dfaa;
 }
 /* väärä vastaus napin väri */
-button.wrong{
+.wrong {
   background-color: red;
   border: 3px solid red;
 }
 /* oikea vastaus napin väri */
-button.correct{
+.correct {
   background-color: greenyellow;
   border: 3px solid greenyellow;
 }
 /* englannin lippujen muotoilu */
-div > img{
+div > img {
   width: 50px;
   opacity: 30%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.flag.correct{
+  opacity: 100%;
+}
+#allAnswers{
+  display: none;
+  border: 3px solid #73a9ad;
+  margin-bottom: 20px;
+}
+th,tr{
+  border: 2px solid #73a9ad;
 }
