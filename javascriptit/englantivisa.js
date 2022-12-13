@@ -41,7 +41,15 @@ const ANSWER_D = document.getElementById("d");
 const ANSWER_BUTTONS = [ANSWER_A, ANSWER_B, ANSWER_C, ANSWER_D];
 // Vakio muuttuja submit ja seuraava kysymys
 const NEXT_BUTTON = document.getElementById("next-button");
-// index muuttuja kysymystaulukkoa varten
+
+let flags = [
+ document.getElementById("flag1"),
+ document.getElementById("flag2"),
+ document.getElementById("flag3"),
+ document.getElementById("flag4"),
+ document.getElementById("flag5")
+]
+
 
 let quizScore = 0;
 
@@ -50,7 +58,7 @@ const QUESTION_EXPLAIN = document.getElementById("question-explain");
 const saveUserAnswer = (userSelection) => {
   let answerIndex = userSelection;
   let correctIndex = QUESTIONS[questionIndex].correctAnswer;
-
+  let flags = document.getElementsByClassName("flags");
   // toisen tehtävän lisää elementti tässä
   let newChild = document.createElement("div");
   newChild.innerText = "fOOBARR";
@@ -66,6 +74,7 @@ const saveUserAnswer = (userSelection) => {
   // poistetaan disaple next-buttonista
   NEXT_BUTTON.removeAttribute("disabled");
 
+  // Jos käyttäjän vastaus on oikea lisää pisteen.
   if (correctIndex === answerIndex) {
     quizScore = quizScore + 1;
     
