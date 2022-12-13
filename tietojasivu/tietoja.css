@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  padding:0px;
+  }
+
+#body {
+  background-color: antiquewhite;
+}
+
+.logo {
+  height: 150px;
+}
+
+/* Navigaatiopalkki */
+.navbar{
+  background-color: #C4DFAA;
+  border: 3px solid #73A9AD;
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* Sisältö */
+article{
+  background-color: #90C8AC;
+  width: 80%;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 20px 150px;
+  border: 3px solid #73A9AD;
+  margin-left: 10%;
+  text-align: center;
+}
+#ekaotsikko{
+  padding-bottom: 30px;
+}
+/* tervetulotekstin asettelu */
+h2{
+  padding-top: 20px;
+  text-align: left;
+}
+p{
+  text-align: left;
+  padding-top: 40px;
+}
+
+/* Alapalkki */
+footer{
+  background-color: #C4DFAA;
+  width: 80%;
+  height: 150px;
+  margin: 20px 150px;
+  margin-left: 10%;
+  border: 3px solid #73A9AD;
+}
+
