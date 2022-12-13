@@ -14,7 +14,7 @@ h1 {
   font-family: 'Patrick Hand', cursive;
 }
 #logo {
-  margin: 20px 150px;
+  margin: 10px 130px;
   }
 
 /* Articlen muokkaukset */
@@ -89,7 +89,7 @@ div > img {
 }
 #allAnswers{
   display: none;
-  border: 3px solid #73a9ad;
+  border: solid #73a9ad;
   margin-bottom: 20px;
 }
 th,tr{
@@ -105,5 +105,21 @@ th,tr{
   color: black;
 
 }
+
+
 /* google fontin tyyli */
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@media screen and (max-width: 500px){
+  #logo{
+    margin: 10px 20px;
+  }
+  table{
+    display: inline-table;
+    width: min-content;
+  }
+  tr:nth-child(3n+2){
+    
+    
+   }
+  }
