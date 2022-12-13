@@ -11,7 +11,7 @@ if (document.getElementById("correct1").checked){
         document.getElementById("kuva1").hidden = false;
 
     } else if (document.getElementById("wrong1").checked || document.getElementById("wrong2").checked){
-        document.getElementById("result1").innerHTML = "Vastasit väärin. oikea vastaus on karhu, joka nukkuu noin puolet vuodesta talviunta. Uni on sen keino selvitä talven yli käyttämällä mahdollisimman vähän energiaa. "
+        document.getElementById("result1").innerHTML = "Vastasit väärin. Oikea vastaus on karhu, joka nukkuu noin puolet vuodesta talviunta. Uni on sen keino selvitä talven yli käyttämällä mahdollisimman vähän energiaa. "
             document.getElementById("correct1").disabled = true;
             document.getElementById("wrong1").disabled = true;
             document.getElementById("wrong2").disabled = true;
