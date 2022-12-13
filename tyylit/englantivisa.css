@@ -10,7 +10,12 @@
 }
 h1 {
   text-align: center;
+  /* google fontti */
+  font-family: 'Patrick Hand', cursive;
 }
+#logo {
+  margin: 20px 150px;
+  }
 
 /* Articlen muokkaukset */
 article {
@@ -100,3 +105,5 @@ th,tr{
   color: black;
 
 }
+/* google fontin tyyli */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');

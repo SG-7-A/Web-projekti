@@ -1,4 +1,3 @@
-
 // Vakio muuttuja taulukko mihin talletetaan käyttäjän valinnat
 const USER_ANSWERS = [];
 // Vakio muuttuja kysymyksille
@@ -19,7 +18,7 @@ const QUESTIONS = [
     correctAnswer: 3,
   },
   {
-    question: "4. Mikä on omena englanniksi?", 
+    question: "4. Mikä on omena englanniksi?",
     answers: ["Apple", "Kiwi", "Watermelon", "Orange"],
     correctAnswer: 0,
   },
@@ -43,13 +42,12 @@ const ANSWER_BUTTONS = [ANSWER_A, ANSWER_B, ANSWER_C, ANSWER_D];
 const NEXT_BUTTON = document.getElementById("next-button");
 
 let flags = [
- document.getElementById("flag1"),
- document.getElementById("flag2"),
- document.getElementById("flag3"),
- document.getElementById("flag4"),
- document.getElementById("flag5")
-]
-
+  document.getElementById("flag1"),
+  document.getElementById("flag2"),
+  document.getElementById("flag3"),
+  document.getElementById("flag4"),
+  document.getElementById("flag5")
+];
 
 let quizScore = 0;
 
@@ -58,11 +56,6 @@ const QUESTION_EXPLAIN = document.getElementById("question-explain");
 const saveUserAnswer = (userSelection) => {
   let answerIndex = userSelection;
   let correctIndex = QUESTIONS[questionIndex].correctAnswer;
-  let flags = document.getElementsByClassName("flags");
-  // toisen tehtävän lisää elementti tässä
-  let newChild = document.createElement("div");
-  newChild.innerText = "fOOBARR";
-  QUESTION_EXPLAIN.appendChild(newChild);
 
   ANSWER_BUTTONS.forEach((button) => {
     // disabloi kaikki napit
@@ -77,7 +70,8 @@ const saveUserAnswer = (userSelection) => {
   // Jos käyttäjän vastaus on oikea lisää pisteen.
   if (correctIndex === answerIndex) {
     quizScore = quizScore + 1;
-    
+   
+
   }
 
   [correctIndex, answerIndex].forEach((idx) => {
@@ -132,8 +126,11 @@ const nextQuestion = () => {
     questionIndex = nextQuestion;
   } else {
     NEXT_BUTTON.innerText = "Tulos";
-    // Tulostaa visailun pistemäärän
-    document.getElementById("results").innerHTML = "Onneksi olkoot sait " + quizScore + "/5 pistettä"
+    // toisen tehtävän lisää elementti tässä
+      // Tulostaa visailun pistemäärän
+    let newChild = document.createElement("div");
+    newChild.innerText = "Onneksi olkoot sait " + quizScore + "/5 pistettä";
+    QUESTION_EXPLAIN.appendChild(newChild);
     // jos ei enempää kysymyksiä näyttää vastauksille oikeat vastaukset
     let quizEnding = document.getElementById("allAnswers");
     quizEnding.style.display = "block";
