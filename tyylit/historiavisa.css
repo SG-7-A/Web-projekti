@@ -95,3 +95,26 @@ p{
     height: 225px;
 
 }
+
+/* Kahvi */
+#kahvi{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#kahvi1{
+    opacity: 0.3;
+    width: 10%;
+}
+#kahvi2{
+    opacity: 0.3;
+    width: 10%;
+}
+#kahvi3{
+    opacity: 0.3;
+    width: 10%;
+}
+#kahvi4{
+    opacity: 0.3;
+    width: 10%;
+}
