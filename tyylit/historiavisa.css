@@ -3,6 +3,10 @@
     padding:0px;
 }   
 
+#logo{
+    padding: 40px 0px 0px;
+}
+
 /* Navigaatiopalkki */
 .navbar{
     background-color: #C4DFAA;
@@ -12,7 +16,7 @@
 }
 
 /* Koko nettisivun taustaväri */    
-body{
+#body{
     background-color: antiquewhite;
 }
 
