@@ -10,7 +10,10 @@
 #logo {
 margin: 20px 150px;
 }
-
+h1{
+    /* google fontti */
+  font-family: 'Patrick Hand', cursive;
+}
 /* Navigaatiopalkki */
 .navbar{
     background-color: #C4DFAA;

@@ -10,6 +10,10 @@
 #logo {
   margin-left: 130px;
 }
+article > h1{
+  /* google fontti */
+  font-family: 'Patrick Hand', cursive;
+}
 
 /* Navigaatiopalkki */
 .navbar{
