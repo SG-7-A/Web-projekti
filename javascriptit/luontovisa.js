@@ -58,7 +58,7 @@ if (document.getElementById("correct3").checked){
 
 
 if (document.getElementById("correct4").checked){
-    document.getElementById("result4").innerHTML = "Oikein! Suomessa kasvaa noin 30 eri puulajia, joista yleisin on mänty. Toiseksi yleisin on kuusi ja kolmatta sijaa pitää mänty."
+    document.getElementById("result4").innerHTML = "Oikein! Suomessa kasvaa noin 30 eri puulajia, joista yleisin on mänty. Toiseksi yleisin on kuusi ja kolmatta sijaa pitää koivu."
         document.getElementById("correct4").disabled = true;
         document.getElementById("wrong7").disabled = true;
         document.getElementById("wrong8").disabled = true;
@@ -66,7 +66,7 @@ if (document.getElementById("correct4").checked){
     
 
     } else if( document.getElementById("wrong7").checked || document.getElementById("wrong8").checked){
-            document.getElementById("result4").innerHTML = "Väärin. Suomessa kasvaa noin 30 eri puulajia, joista yleisin on mänty. Toiseksi yleisin on kuusi ja kolmatta sijaa pitää mänty."
+            document.getElementById("result4").innerHTML = "Väärin. Suomessa kasvaa noin 30 eri puulajia, joista yleisin on mänty. Toiseksi yleisin on kuusi ja kolmatta sijaa pitää koivu."
                 document.getElementById("correct4").disabled = true;
                 document.getElementById("wrong7").disabled = true;
                 document.getElementById("wrong8").disabled = true;
