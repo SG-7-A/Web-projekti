@@ -113,15 +113,30 @@ footer > a{
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 @media screen and (max-width: 500px){
+  .navbar {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   #logo{
     margin: 10px 20px;
   }
+  article {
+    width: auto;
+    height: fit-content;
+    margin-right: 10px;
+    margin-left: 10px
+  }
+  /* Alapalkin ulkonäkö */
+footer {
+  width: auto;
+  height: fit-content;
+  margin-left: 10px;
+  margin-right: 10px;
+}
   table{
     display: inline-table;
     width: min-content;
   }
-  tr:nth-child(3n+2){
-    
-    
-   }
+  
   }
