@@ -11,11 +11,11 @@
 h1 {
   text-align: center;
   /* google fontti */
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
 }
 #logo {
   margin: 10px 130px;
-  }
+}
 
 /* Articlen muokkaukset */
 article {
@@ -58,7 +58,7 @@ div:nth-child(-n + 4) {
   margin-bottom: 30px;
 }
 /* valitsee p teksti elementin  */
-article > h1 + p{
+article > h1 + p {
   text-align: center;
 }
 
@@ -84,44 +84,54 @@ div > img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.flag.correct{
+.flag.correct {
   opacity: 100%;
 }
-#allAnswers{
+#allAnswers {
   display: none;
   border: solid #73a9ad;
   margin-bottom: 20px;
 }
-th,tr{
+th,
+tr {
   border: 2px solid #73a9ad;
 }
 /* google iconin tyylit */
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
   color: black;
-
 }
-footer > a{
+footer > a {
   margin: 5px 10px 5px 10px;
 }
 
 /* google fontin tyyli */
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 
-@media screen and (max-width: 500px){
-  #logo{
+@media screen and (max-width: 500px) {
+  .navbar {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #logo {
     margin: 10px 20px;
   }
-  table{
+  article {
+    width: auto;
+    height: fit-content;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  /* Alapalkin ulkonäkö */
+  footer {
+    width: auto;
+    height: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  table {
     display: inline-table;
     width: min-content;
   }
-  tr:nth-child(3n+2){
-    
-    
-   }
-  }
+}

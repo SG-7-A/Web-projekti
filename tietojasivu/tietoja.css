@@ -1,7 +1,7 @@
-*{
+* {
   margin: 0px;
-  padding:0px;
-  }
+  padding: 0px;
+}
 
 #body {
   background-color: antiquewhite;
@@ -10,59 +10,77 @@
 #logo {
   margin-left: 130px;
 }
-article > h1{
+article > h1 {
   /* google fontti */
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
 }
 
 /* Navigaatiopalkki */
-.navbar{
-  background-color: #C4DFAA;
-  border: 3px solid #73A9AD;
+.navbar {
+  background-color: #c4dfaa;
+  border: 3px solid #73a9ad;
   width: 80%;
   margin-left: 10%;
 }
 
 /* Sisältö */
-article{
-  background-color: #90C8AC;
+article {
+  background-color: #90c8ac;
   width: 80%;
   height: fit-content;
   padding-top: 20px;
   padding-bottom: 30px;
   margin: 20px 150px;
-  border: 3px solid #73A9AD;
+  border: 3px solid #73a9ad;
   margin-left: 10%;
   text-align: center;
 }
-#ekaotsikko{
+#ekaotsikko {
   padding-bottom: 10px;
 }
 /* tervetulotekstin asettelu */
-h2{
+h2 {
   padding-top: 20px;
   text-align: left;
 }
-p{
+p {
   text-align: left;
-  padding: 10px 10px 10px 20px;
+  padding: 5px 5px 5px 15px;
 }
 
 /* Alapalkki */
-footer{
-  background-color: #C4DFAA;
+footer {
+  background-color: #c4dfaa;
   width: 80%;
   height: 150px;
   margin: 20px 150px;
   margin-left: 10%;
-  border: 3px solid #73A9AD;
+  border: 3px solid #73a9ad;
 }
-footer > table{
+footer > table {
   margin: 5px 10px 5px 10px;
 }
-@media screen and(max-width: 500px) {
-  #logo{
-    margin-left: 100px;
+@media screen and (max-width: 500px) {
+  .navbar {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  #logo {
+    margin: 10px 20px;
+  }
+  article {
+    width: auto;
+    height: fit-content;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  /* Alapalkin ulkonäkö */
+  footer {
+    width: auto;
+    height: fit-content;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
-
