@@ -105,7 +105,9 @@ th,tr{
   color: black;
 
 }
-
+footer > a{
+  margin: 5px 10px 5px 10px;
+}
 
 /* google fontin tyyli */
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');

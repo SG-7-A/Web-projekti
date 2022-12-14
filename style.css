@@ -56,3 +56,6 @@ footer{
     margin-left: 10%;
     border: 3px solid #73A9AD;
 }
+footer > table{
+    margin: 5px 10px 5px 10px
+}
