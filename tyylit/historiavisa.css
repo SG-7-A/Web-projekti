@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding:0px;
+}   
+
+#logo{
+    padding: 40px 0px 0px;
+}
+
+/* Navigaatiopalkki */
+.navbar{
+    background-color: #C4DFAA;
+    border: 3px solid #73A9AD;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Koko nettisivun taustaväri */    
+#body{
+    background-color: antiquewhite;
+}
+
+/* Nettisivun sisältö */
+article{
+    background-color: #C4DFAA;
+    border: 3px solid #73A9AD;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    height: fit-content;
+    margin-bottom: 10%;
+    display: block;
+}
+
+/* Yläotsikko */
+#historiavisa{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Kysymysten laatikot */
+#kysymys{
+    background-color: #afd68b;
+    border: 2px solid #73A9AD;
+    border-radius: 10px;
+    padding: 1em;
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-bottom: 1em;
+}
+
+/* Kysymysten otsikot */
+h2{
+    font-size: 1.8em;
+}
+
+/* Kysymysten alaotsikot */
+#otsikko2{
+    font-size: 0.65em;
+    font-weight: normal;
+    text-decoration: underline;
+    position: relative;
+}
+
+/* Kysymysten vaihtoehdot*/
+.vaihtoehdot{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#question{
+    font-size: 1.2em;
+}
+
+/* Nappi joka tallentaa sen hetkisen kysymyksen vastauksen */
+#save{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: underline;
+}
+
+/* Vastauksen asetukset */
+p{
+    font-size: 1.2em;
+}
+
+
+/* Asetukset jotka säätää kuvan koon olemaan sama joka kysymyksessä */
+#kuva{
+    width: 400px;
+    height: 225px;
+
+}
