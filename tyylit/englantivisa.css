@@ -134,8 +134,4 @@ footer > a {
     display: inline-table;
     width: min-content;
   }
-  tr:last-child {
-    margin-left: 20px;
-    margin-top: 200px;
-  }
 }
