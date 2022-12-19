@@ -70,7 +70,7 @@ const saveUserAnswer = (userSelection) => {
   // Jos käyttäjän vastaus on oikea lisää pisteen.
   if (correctIndex === answerIndex) {
     quizScore = quizScore + 1;
-   for (let i = 0; i++; i < quizScore) {
+   for (let i = 0;  i < quizScore; i++) {
     flags[i].style.opacity = '1.0';
    }
 

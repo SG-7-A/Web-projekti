@@ -4,7 +4,7 @@
 }   
 
 #logo{
-    padding: 40px 0px 0px;
+    margin: 20px 150px;
 }
 
 /* Navigaatiopalkki */
@@ -92,6 +92,29 @@ p{
 /* Asetukset jotka säätää kuvan koon olemaan sama joka kysymyksessä */
 #kuva{
     width: 400px;
-    height: 225px;
+    height: 225px fit-content;
 
+}
+
+/* Kahvi */
+#kahvi{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#kahvi1{
+    opacity: 0.3;
+    width: 10%;
+}
+#kahvi2{
+    opacity: 0.3;
+    width: 10%;
+}
+#kahvi3{
+    opacity: 0.3;
+    width: 10%;
+}
+#kahvi4{
+    opacity: 0.3;
+    width: 10%;
 }
