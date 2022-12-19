@@ -1,19 +1,31 @@
 
 // Nea Nieminen
 
+
+// Jos mitään vastausta ei valittu, ei tulosteta mitään.
 const NO_ANSWER = ""
 
 function getResults(){
 
+
+// Jos vastaus on oikein, tulostetaan seuraava teksti
 if (document.getElementById("correct1").checked){
     document.getElementById("result1").innerHTML = "Oikein! Karhu nukkuu noin puolet vuodesta talviunta. Uni on sen keino selvitä talven yli käyttämällä mahdollisimman vähän energiaa. "
+
+        // Kysymykseen vastattua ei voi vaihtaa vastausvaihtoehtoa
         document.getElementById("correct1").disabled = true;
         document.getElementById("wrong1").disabled = true;
         document.getElementById("wrong2").disabled = true;
+
+        // kuvake ei ole enää piilotettuna
         document.getElementById("kuva1").hidden = false;
 
+
+        // Jos vastaus on väärin, tulostetaan seuraava teksti
     } else if (document.getElementById("wrong1").checked || document.getElementById("wrong2").checked){
         document.getElementById("result1").innerHTML = "Vastasit väärin. Oikea vastaus on karhu, joka nukkuu noin puolet vuodesta talviunta. Uni on sen keino selvitä talven yli käyttämällä mahdollisimman vähän energiaa. "
+
+            // Kysymykseen vastattua ei voi vaihtaa vastausvaihtoehtoa
             document.getElementById("correct1").disabled = true;
             document.getElementById("wrong1").disabled = true;
             document.getElementById("wrong2").disabled = true;

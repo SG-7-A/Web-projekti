@@ -9,31 +9,24 @@ body {
     background-color: antiquewhite;
 }
 
-svg {
-    height: 20px;
-}
-
-#repeat {
-    text-align: center;
-}
-
 #logo {
     margin: 20px 150px;
 }
 
-h1{
+h1 {
     /* google fontti */
   font-family: 'Patrick Hand', cursive;
   text-align: center;
 }
 
-.navbar{
+.navbar {
     background-color: #C4DFAA;
     border: 3px solid #73A9AD;
     width: 80%;
     margin-left: 10%;
 }
-.questionBox{
+
+.questionBox {
     border: 1px solid;
     border-radius: 20px;
     padding: 10px;
@@ -48,6 +41,7 @@ h1{
 
 
 #caption {
+
     text-align: center;
     width: 80%;
     margin: 2% 10%;
@@ -56,6 +50,7 @@ h1{
     border: 3px solid #73A9AD;
     border-radius: 20px;
 }
+
 .questions span {
     display: block;
 }
@@ -65,8 +60,7 @@ h1{
     margin-left: 10%;
 }
 
-
-.submit{
+.submit {
     background-color: #90C8AC ;
     width: 185px;
     margin: 10px 5px;
@@ -83,6 +77,14 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+svg {
+    height: 20px;
+}
+
+#repeat {
+    text-align: center;
+}
+
 @media screen and (max-width: 800px) {
 
     #logo {
@@ -90,8 +92,7 @@ h2 {
         margin-left: 8em;
     }
 
-
-    body{
+    body {
         margin: 4em;
     }
 
@@ -106,7 +107,7 @@ h2 {
 
 @media screen and (max-width: 1500px) {
 
-    .questionBox{ 
+    .questionBox { 
         margin: 1% 10%;
     }
 
