@@ -14,10 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="//fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
     
 </head>
 <body id="body">
-    <a href="../index.html"><img id="logo" src="../kuvat/ensv.png" alt="index.html"></a>  
+    <a href="../index.html" target="_blank"><img id="logo" src="../kuvat/ensv.png" alt="index.html"></a>  
     
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#" style="display: none">Navbar</a>
@@ -52,23 +54,23 @@
 <article>
     <h1 class="otsikko">Tervetuloa musavisaan!</h1> 
     <div class="questionBox1">
-    <b> <p class="questions"> <span> Kysymys 1 / 5 </span> Mikä on tämä soitin?</p></b>
-    <img src="../kuvat/guitar.png" id="kitara" alt="Kitara"> <br>
-      
-      <input type="radio" name="answer1"  id="correct1"> <span> Kitara </span>
-      <input type="radio" name="answer1" id="wrong1"> <span> Basso </span>
-      <input type="radio" name="answer1" id="wrong2"> <span> Kantele </span>
+    <b> 
+      <p class="questions"> <span> Kysymys 1/5 :</span> <br> Mikä on tämä soitin?</p>
+    </b>
+      <img src="../kuvat/guitar.png" id="kitara" alt="Kitara">
+      <br>
+        <input type="radio" name="answer1"  id="correct1"> <span>Kitara</span>
+        <input type="radio" name="answer1" id="wrong1"> <span>Basso</span>
+        <input type="radio" name="answer1" id="wrong2"> <span>Kantele</span>
 
-      <div>
-        <button class="submit" onclick="getResults()" type="submit"> Vastaa </button>
-      </div>
-
-        <p id="result1"></p>
-
-</div>
+          <div>
+            <button class="submit" onclick="getResults()" type="submit">Vastaa</button>
+          </div>
+      <p id="result1"></p>
+    </div>
 
   <div class="questionBox">
-    <b><p class="questions"> <span> Kysymys 2 / 5 </span> Mikä on Suomen kansallislaulu? </p></b>
+    <b><p class="questions"> <span> Kysymys 2/5 :</span><br> Mikä on Suomen kansallislaulu? </p></b>
       <input type="radio" name="answer2" id="wrong3"> <span> Piippolan vaarilla oli talo </span>
       <input type="radio" name="answer2"  id="wrong4"> <span> Jänis istui maassa </span>
       <input type="radio" name="answer2"  id="correct2"> <span> Maamme-laulu </span>
@@ -80,7 +82,7 @@
   </div>
   
   <div class="questionBox">
-     <b> <p class="questions"> <span> Kysymys 3/ 5 </span> Miten jatkuu laulu: "Kolme varista..?" </p> </b>
+     <b> <p class="questions"> <span> Kysymys 3/5 :</span><br> Miten jatkuu laulu: "Kolme varista..?" </p> </b>
       <input type="radio" name="answer3"  id="wrong5"> <span> käveli aidalla</span>
       <input type="radio" name="answer3"  id="correct3"> <span> istui aidalla</span>
       <input type="radio" name="answer3"  id="wrong6"> <span> hyppi aidalla</span>
@@ -91,7 +93,7 @@
   </div>
 
   <div class="questionBox">
-     <b><p class="questions"> <span> Kysymys 4 / 5 </span> Mikä on tämä soitin? </p> </b> 
+     <b><p class="questions"> <span> Kysymys 4/5 :</span><br> Mikä on tämä soitin? </p> </b> 
      <img src="../kuvat/drums.png" id="rummut" alt="Rummut"> <br><br>
 
       <input type="radio" name="answer4"  id="wrong7"> <span> Piano </span>
@@ -104,7 +106,7 @@
   </div>
   
   <div class="questionBox">
-      <b> <p class="questions"> <span> Kysymys 5 / 5 </span> Millä paikattiin Pikku Matin autosta puhjennut kumi? </p> </b>
+      <b> <p class="questions"> <span> Kysymys 5/5 :</span><br> Millä paikattiin Pikku Matin autosta puhjennut kumi? </p> </b>
       <input type="radio" name="answer5" id="wrong9"> <span> Teipillä </span>
       <input type="radio" name="answer5" id="correct5"> <span> Purukumilla </span>
       <input type="radio" name="answer5" id="wrong10"> <span> Sinitarralla</span>
@@ -117,10 +119,8 @@
   </div>
 
   <div id="tulokset">
-    <h2> Tulokset </h2>
-    <p id="results"> Hienoa, olet saanut musavisan valmiiksi! Jokaisesta oikeasta vastauksesta ilmestyy uusi nuottiavain.</p>
-
-
+    <h2 id="results"> Hienoa, olet suorittanut musavisan! <br> Jokaisesta oikeasta vastauksesta ilmestyy uusi nuottiavain.</h2>
+    
     <img class="kuvia" id="kuva1" src="../kuvat/nuottiavain.png" alt="nuotti" srcset="" hidden>
     <img class="kuvia" id="kuva2" src="../kuvat/nuottiavain.png" alt="nuotti" srcset="" hidden>
     <img class="kuvia" id="kuva3" src="../kuvat/nuottiavain.png" alt="nuotti" srcset="" hidden>
@@ -128,7 +128,10 @@
     <img class="kuvia" id="kuva5" src="../kuvat/nuottiavain.png" alt="nuotti" srcset="" hidden>
     </div>
 </article>
-    
-    
+  
+<footer id="footer">
+  <p>Linkki sivulle mistä kuvat on otettu:</p>
+  <a class="link" href="https://pixabay.com/fi/" target="_blank">Pixabay</a>
+</footer>
 </body>
 </html>
