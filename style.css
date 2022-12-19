@@ -10,10 +10,13 @@
 #logo {
 margin: 20px 150px;
 }
+
 h1{
     /* google fontti */
   font-family: 'Patrick Hand', cursive;
 }
+
+
 /* Navigaatiopalkki */
 .navbar{
     background-color: #C4DFAA;
@@ -34,6 +37,15 @@ article{
     margin-left: 10%;
     text-align: center;
 }
+
+#textcontent {
+    border: 5px solid #C4DFAA;
+    margin: 50px 10px;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+}
+
 #ekaotsikko{
     padding-bottom: 30px;
 }
