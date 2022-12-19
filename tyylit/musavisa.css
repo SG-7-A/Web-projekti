@@ -19,10 +19,6 @@ a:hover {
     font-weight: bold;
 } 
 
-/*a:visited {
-    color: brown;
-}*/
-
 a[target="_blank"] {
     color:#0e5a1a;
 }
@@ -45,7 +41,7 @@ h1 {
     font-family: 'Passions Conflict', cursive;
     font-size:400%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #kitara {
@@ -88,7 +84,8 @@ article {
 
 .submit {
     background-color: antiquewhite;
-    margin: 10px 5px;
+    margin-top: auto;
+    margin-bottom: 18px;
     padding-top: 3px;
     padding-bottom: 3px;
     margin-top: 15px;
@@ -106,8 +103,16 @@ h2 {
     text-align: center;
 }
 
+  svg {
+    height: 30px;
+}
 
-footer {
+  #repeat {
+    text-align: center;
+    size: 10px;
+  }
+
+  footer {
     background-color: #F5F0BB;
     padding: 20px;
     width: 80%;
