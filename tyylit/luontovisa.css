@@ -1,29 +1,32 @@
+/* Nea Nieminen*/
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    background-color: #F5F0BB;
+    background-color: antiquewhite;
 }
 
 #logo {
-    padding: 40px 0px 0px;
+    margin: 20px 150px;
 }
 
 h1 {
-    text-align: center;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
+    /* google fontti */
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
 }
 
-.navbar{
+.navbar {
     background-color: #C4DFAA;
     border: 3px solid #73A9AD;
     width: 80%;
     margin-left: 10%;
 }
-.questionBox{
+
+.questionBox {
     border: 1px solid;
     border-radius: 20px;
     padding: 10px;
@@ -35,7 +38,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 #caption {
+
     text-align: center;
     width: 80%;
     margin: 2% 10%;
@@ -44,6 +50,7 @@ h1 {
     border: 3px solid #73A9AD;
     border-radius: 20px;
 }
+
 .questions span {
     display: block;
 }
@@ -53,8 +60,7 @@ h1 {
     margin-left: 10%;
 }
 
-
-.submit{
+.submit {
     background-color: #90C8AC ;
     width: 185px;
     margin: 10px 5px;
@@ -69,4 +75,43 @@ h2 {
     text-align: center;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+svg {
+    height: 20px;
+}
+
+#repeat {
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+
+    #logo {
+        height: 8rem;
+        margin-left: 8em;
+    }
+
+    body {
+        margin: 4em;
+    }
+
+    .questionBox {
+        margin: 3em ;
+    }
+
+    .kuvia{
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+    .questionBox { 
+        margin: 1% 10%;
+    }
+
+    .kuvia {
+        width: 8%;
+    }
 }

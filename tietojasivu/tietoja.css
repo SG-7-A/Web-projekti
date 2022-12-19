@@ -8,12 +8,15 @@
 }
 
 #logo {
-  margin-left: 130px;
+margin-left: 130px;
+padding-top: 50px;
 }
+
 article > h1 {
   /* google fontti */
   font-family: "Patrick Hand", cursive;
 }
+
 
 /* Navigaatiopalkki */
 .navbar {
@@ -43,8 +46,8 @@ h2 {
   padding-top: 20px;
   text-align: left;
 }
+
 p {
-  text-align: left;
   padding: 5px 5px 5px 15px;
 }
 
@@ -67,7 +70,7 @@ footer > table {
     margin-right: 20px;
   }
   #logo {
-    margin: 10px 20px;
+    display: none;
   }
   article {
     width: auto;
