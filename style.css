@@ -22,7 +22,7 @@ h1{
     background-color: #C4DFAA;
     border: 3px solid #73A9AD;
     width: 80%;
-    margin-left: 10%;
+    margin: auto;
 }
 
 /* Sisältö */
@@ -80,4 +80,38 @@ footer{
 }
 footer > table{
     margin: 5px 10px 5px 10px
+}
+@media screen and (max-width: 500px) {
+    #logo{
+        display: none;
+    }
+    h1{
+        text-align: center;
+    }
+    #textContent{
+     text-align: left;
+     height: fit-content;
+    }
+    .row{
+        overflow: auto;
+    }
+
+    .navbar {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      article {
+        width: auto;
+        height: fit-content;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: left;
+      }
+      footer {
+        width: auto;
+        height: fit-content;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
 }
