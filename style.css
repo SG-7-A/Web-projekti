@@ -38,6 +38,16 @@ article{
     text-align: center;
 }
 
+#info {
+    text-decoration: none;
+    color: black;
+}
+
+#info:hover {
+    font-weight: bold;
+    color: gray;
+}
+
 #textcontent {
     border: 5px solid #C4DFAA;
     margin: 50px 10px;
