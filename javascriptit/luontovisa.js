@@ -1,4 +1,6 @@
 
+// Nea Nieminen
+
 const NO_ANSWER = ""
 
 function getResults(){
