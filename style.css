@@ -81,13 +81,11 @@ footer > table{
     #textContent{
      text-align: left;
      height: fit-content;
-
     }
     .row{
         overflow: auto;
-        
     }
-    
+
     .navbar {
         width: auto;
         margin-left: 10px;
