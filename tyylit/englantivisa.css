@@ -115,7 +115,7 @@ footer > a {
     margin-right: 10px;
   }
   #logo {
-    margin: 10px 20px;
+    display: none;
   }
   article {
     width: auto;
@@ -133,9 +133,5 @@ footer > a {
   table {
     display: inline-table;
     width: min-content;
-  }
-  tr:last-child {
-    margin-left: 20px;
-    margin-top: 200px;
   }
 }
